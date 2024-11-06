@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #edf6fec3;
+    font-family: 'inter';
+}
+
+.tudo{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.geral{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#perguntas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    padding: 20px;
+}
+
+#perg{
+    border-left: 3px solid rgb(5, 228, 244);
+    
+}
+
+a{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 80px;
+}
+
+h2{
+    margin-left: 8px;
+    border-radius: 2px;
+    height: 30px;
+    font-size: 20px;
+}
+
+ion-icon{
+    font-size: 30px;
+    color: black;
+}
+
+p{
+    width: 900px;
+    margin-left: 27px;
+    display: none;
+}
